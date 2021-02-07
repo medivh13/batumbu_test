@@ -1,0 +1,62 @@
+# Sample Configurations
+
+# Send requests to each target
+count = 10
+# Enable verbose logging
+verbose = true
+# Use an http proxy for all connections
+proxy = "http://127.0.0.1:8080"
+
+
+
+
+[[requests]]
+    # Use the GET request method
+    method = "GET"
+    # Set the URL target. Any valid URL is accepted, including ports, https, and parameters.
+    url = "http://localhost:8080/invest/a/5"
+    # Set custom headers to send with the request to this target. Must be an array.
+    headers = ["X-Originating-IP: 127.0.0.1", "Content-Type: application/json" ,"X-Remote-IP: 127.0.0.1"]
+    # Do not follow redirects
+    redirects = false
+
+[[requests]]
+    # Use the GET request method
+    method = "GET"
+    # Set the URL target. Any valid URL is accepted, including ports, https, and parameters.
+    url = "http://localhost:8080/invest/b/3"
+    # Set custom headers to send with the request to this target. Must be an array.
+    headers = ["X-Originating-IP: 127.0.0.1", "Content-Type: application/json" ,"X-Remote-IP: 127.0.0.1"]
+    # Do not follow redirects
+    redirects = false
+
+[[requests]]
+    # Use the GET request method
+    method = "GET"
+    # Set the URL target. Any valid URL is accepted, including ports, https, and parameters.
+    url = "http://localhost:8080/invest/c/7"
+    # Set custom headers to send with the request to this target. Must be an array.
+    headers = ["X-Originating-IP: 127.0.0.1", "Content-Type: application/json" ,"X-Remote-IP: 127.0.0.1"]
+    # Do not follow redirects
+    redirects = false
+
+
+[[requests]]
+    # Use the GET request method
+    method = "GET"
+    # Set the URL target. Any valid URL is accepted, including ports, https, and parameters.
+    url = "http://localhost:8080/invest/d/8"
+    # Set custom headers to send with the request to this target. Must be an array.
+    headers = ["X-Originating-IP: 127.0.0.1", "Content-Type: application/json" ,"X-Remote-IP: 127.0.0.1"]
+    # Do not follow redirects
+    redirects = false
+
+[[requests]]
+    # Use the GET request method
+    method = "GET"
+    # Set the URL target. Any valid URL is accepted, including ports, https, and parameters.
+    url = "http://localhost:8080/invest/a/3"
+    # Set custom headers to send with the request to this target. Must be an array.
+    headers = ["X-Originating-IP: 127.0.0.1", "Content-Type: application/json" ,"X-Remote-IP: 127.0.0.1"]
+    # Do not follow redirects
+    redirects = false
