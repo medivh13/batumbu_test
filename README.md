@@ -29,7 +29,7 @@ steps to run using docker-compose:
     to perform unit test with coverage info run on terminal:
         make test
     b. Load testing
-    verify race-the-web is installed on your local computer and before performing this test you need to verify that this service is running and ready to accept request, then run on terminal:
+    verify race-the-web is installed on your local computer and before performing this test you need to verify that this service is running and ready to accept request, then run on terminal (see pre requisite #4):
         make loadtest
     
 
